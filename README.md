@@ -1387,7 +1387,7 @@ def agregar_producto(nombre, cantidad, precio, estanteria):
             if producto {"nombre"} == nombre_producto:
             if producto {"cantidad"} >= cantidad_a_retirar:
                        producto{"cantidad"} -= cantidad_a_retirar
-                       print(f"Exito: Se retiraron {cantidad_a_retirar} unidades de {nombre_producto} 
+                       print(f"Exito: Se retiraron {cantidad_a_retirar} unidades de {nombre_producto}) 
                             return
              else:
                   print (f"Error: No hay suficientes {nombre_producto}.(Disponibles: {producto ¨{'cantidad'}})")
@@ -1400,7 +1400,7 @@ def agregar_producto(nombre, cantidad, precio, estanteria):
         for estanteria, productos in productos_almacen.items():
            for productos in productos :
               if producto {"nombre} == nombre_producto:
-                 print (f"Producto: {producto{'nombre'}}, cantidad {producto{'cantidad'}}, ubicacion {estanteria}"}
+                 print (f"Producto: {producto{'nombre'}}, cantidad {producto{'cantidad'}}, ubicacion {estanteria}")
                       encontrado = True
                       if not encontrado:
                         print(f"El producto{nombre_producto} no existe en el almacen.")
@@ -1413,7 +1413,7 @@ def estado_del_almacen():
       print(f"\n{estanteria}:")
       total_productos_estanteria = 0
       for producto in productos:
-         print(f"- {producto{'nombre}}: {producto {'cantidad'}} unidades (Precio:{producto {'precio'})
+         print(f"- {producto{'nombre}}: {producto {'cantidad'}} unidades (Precio:{producto {'precio'}})
             
 #No esta acabado.
 
